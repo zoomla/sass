@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Zoomla逐浪CMS z01.com">
+<title>安装Sass | Sass中文网</title>
+<meta name="description" content="Sass世界上最成熟、稳定和强大的CSS扩展语言">
+<meta name="keywords" content="scss开发,scss中国,less开发,sass开发,sass教程,scss教程,Sass,Less,sass在线转换,CSS预处理器,Sass中文网,Scss中文网,sass中国,scss中国,SCSS,Sass安装,Scss安装,Sass资料,Sass资源,Sass项目,Sass学习">
+<meta name="author" content="Zoomla!逐浪CMS团队">
+<link rel="icon" href="//code.z01.com/favicon.ico">
+<link href="../v4/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="../boot/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="../v4/assets/css/docs.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="sass-home-nav w-100" id="home_nav">
+<div class="container-fluid  ">
+<nav class="navbar navbar-expand-lg navbar-light">
+<a href="../"><i class="fa fa-home fa-2x"></i></a>
+<a class="navbar-brand" href="../sass/">
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="384" viewBox="0 0 512 384"><path fill="#CF649A" d="M440.6 220.6c-17.9.1-33.4 4.4-46.4 10.8-4.8-9.5-9.6-17.8-10.4-24-.9-7.2-2-11.6-.9-20.2s6.1-20.8 6.1-21.8c-.1-.9-1.1-5.3-11.4-5.4-10.3-.1-19.2 2-20.2 4.7s-3 8.9-4.3 15.3c-1.8 9.4-20.6 42.7-31.3 60.2-3.5-6.8-6.5-12.8-7.1-17.6-.9-7.2-2-11.6-.9-20.2s6.1-20.8 6.1-21.8c-.1-.9-1.1-5.3-11.4-5.4-10.3-.1-19.2 2-20.2 4.7s-2.1 9.1-4.3 15.3c-2.1 6.2-27.1 61.8-33.6 76.3-3.3 7.4-6.2 13.3-8.3 17.3s-.1.3-.3.7c-1.8 3.4-2.8 5.3-2.8 5.3v.1c-1.4 2.5-2.9 4.9-3.6 4.9-.5 0-1.5-6.7.2-15.9 3.7-19.3 12.7-49.4 12.6-50.5 0-.5 1.7-5.8-5.8-8.5-7.3-2.7-9.9 1.8-10.5 1.8-.6 0-1.1 1.6-1.1 1.6s8.1-33.9-15.5-33.9c-14.8 0-35.2 16.1-45.3 30.8-6.4 3.5-20 10.9-34.4 18.8-5.5 3-11.2 6.2-16.6 9.1l-1.1-1.2c-28.6-30.5-81.5-52.1-79.3-93.1.8-14.9 6-54.2 101.6-101.8 78.3-39 141-28.3 151.9-4.5 15.5 34-33.5 97.2-114.9 106.3-31 3.5-47.3-8.5-51.4-13-4.3-4.7-4.9-4.9-6.5-4-2.6 1.4-1 5.6 0 8.1 2.4 6.3 12.4 17.5 29.4 23.1 14.9 4.9 51.3 7.6 95.3-9.4 49.3-19.1 87.8-72.1 76.5-116.4-11.5-45.1-86.3-59.9-157-34.8-42.1 15-87.7 38.4-120.5 69.1-39 36.4-45.2 68.2-42.6 81.4 9.1 47.1 74 77.8 100 100.5-1.3.7-2.5 1.4-3.6 2-13 6.4-62.5 32.3-74.9 59.7-14 31 2.2 53.3 13 56.3 33.4 9.3 67.6-7.4 86.1-34.9 18.4-27.5 16.2-63.2 7.7-79.5l-.3-.6 10.2-6c6.6-3.9 13.1-7.5 18.8-10.6-3.2 8.7-5.5 19-6.7 34-1.4 17.6 5.8 40.4 15.3 49.4 4.2 3.9 9.2 4 12.3 4 11 0 16-9.1 21.5-20 6.8-13.3 12.8-28.7 12.8-28.7s-7.5 41.7 13 41.7c7.5 0 15-9.7 18.4-14.7v.1s.2-.3.6-1c.8-1.2 1.2-1.9 1.2-1.9v-.2c3-5.2 9.7-17.1 19.7-36.8 12.9-25.4 25.3-57.2 25.3-57.2s1.2 7.8 4.9 20.6c2.2 7.6 7 15.9 10.7 24-3 4.2-4.8 6.6-4.8 6.6l.1.1c-2.4 3.2-5.1 6.6-7.9 10-10.2 12.2-22.4 26.1-24 30.1-1.9 4.7-1.5 8.2 2.2 11 2.7 2 7.5 2.4 12.6 2 9.2-.6 15.6-2.9 18.8-4.3 5-1.8 10.7-4.5 16.2-8.5 10-7.4 16.1-17.9 15.5-31.9-.3-7.7-2.8-15.3-5.9-22.5.9-1.3 1.8-2.6 2.7-4 15.8-23.1 28-48.5 28-48.5s1.2 7.8 4.9 20.6c1.9 6.5 5.7 13.6 9.1 20.6-14.8 12.1-24.1 26.1-27.3 35.3-5.9 17-1.3 24.7 7.4 26.5 3.9.8 9.5-1 13.7-2.8 5.2-1.7 11.5-4.6 17.3-8.9 10-7.4 19.6-17.7 19.1-31.6-.3-6.4-2-12.7-4.3-18.7 12.6-5.2 28.9-8.2 49.6-5.7 44.5 5.2 53.3 33 51.6 44.6-1.7 11.6-11 18-14.1 20-3.1 1.9-4.1 2.6-3.8 4 .4 2.1 1.8 2 4.5 1.6 3.7-.6 23.4-9.5 24.2-30.9 1.2-27.5-24.9-57.5-71.2-57.2zm-343.2 115.7c-14.7 16.1-35.4 22.2-44.2 17-9.5-5.5-5.8-29.2 12.3-46.3 11-10.4 25.3-20 34.7-25.9 2.1-1.3 5.3-3.2 9.1-5.5.6-.4 1-.6 1-.6.7-.4 1.5-.9 2.3-1.4 6.7 24.4.3 45.8-15.2 62.7zm107.5-73.1c-5.1 12.5-15.9 44.6-22.4 42.8-5.6-1.5-9-25.8-1.1-49.8 4-12.1 12.5-26.5 17.5-32.1 8.1-9 16.9-12 19.1-8.3 2.6 4.8-9.9 39.6-13.1 47.4zm88.7 42.4c-2.2 1.1-4.2 1.9-5.1 1.3-.7-.4.9-1.9.9-1.9s11.1-11.9 15.5-17.4c2.5-3.2 5.5-6.9 8.7-11.1v1.2c0 14.4-13.8 24-20 27.9zm68.4-15.6c-1.6-1.2-1.4-4.9 4-16.5 2.1-4.6 6.9-12.3 15.2-19.6 1 3 1.6 5.9 1.5 8.6-.1 18-12.9 24.7-20.7 27.5z"/>
+</svg>
+<h1>Sass中文网</h1>
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="/sass/">首页</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="install.html">安装</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="guide.html">快速入门</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="docs.html">中文文档</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="faq.html">常见问题</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="skill.html">使用技巧</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="css2sass.html">Sass在线转换</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">其它工具</a>
+<div class="dropdown-menu btn-sm ">
+<a class="dropdown-item btn-sm" href="../v4/">Bootstrap v4</a>
+<a class="dropdown-item btn-sm" href="../boot/font.html">Font Awesome奥森字体</a>
+<a class="dropdown-item btn-sm" href="../Emmet/" target="_blank">Emmet语法</a>
+<a class="dropdown-item btn-sm" href="//ad.z01.com" target="_blank">广告源码</a>
+<a class="dropdown-item btn-sm" href="//v.z01.com/mb/" target="_blank">免费模板</a>
+<a class="dropdown-item btn-sm" href="://www.z01.com/tool/" target="_blank">IIS站长工具</a>
+<a class="dropdown-item btn-sm" href="//z01.com/mtv/" target="_blank">开发视频</a>
+<a class="dropdown-item btn-sm" href="//bbs.z01.com" target="_blank">技术社区</a>
+</div>
+</li>
+</ul>
+<a class="btn btn-bd-yellow btn-sm" href="//z01.com/pub/" target="_blank"><i class="fa fa-download" aria-hidden="true"></i> 下载Zoomla!逐浪CMS</a>
+</div>
+</nav>
+</div>
+<div class="container-fluid sass-home-ad">
+<h2>如何安装Sass</h2>
+</div>
+</div>
+<!-- sass-home-nav end! -->
+<main role="main">
+<div class="container" id="sass-install">
+<h2 id="sass-compass">安装Sass和Compass</h2>
+
+<p><code>sass</code>基于<code>Ruby</code>语言开发而成，因此安装<code>sass</code>前需要<a href="http://rubyinstaller.org/downloads" class="mark-color">安装Ruby</a>。（注:mac下自带Ruby无需在安装Ruby!）</p>
+
+<p>window下安装SASS首先需要安装<code>Ruby</code>，先从官网<a href="http://rubyinstaller.org/downloads" class="mark-color">下载Ruby</a>并安装。安装过程中请注意勾选<code>Add Ruby executables to your PATH</code>添加到系统环境变量。如下图：</p>
+
+<p><img src="images/install-ep1.png" alt=""></p>
+<p>安装完成后需测试安装有没有成功,运行<code>CMD</code>输入以下命令：</p>
+<div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div>
+<figure class="highlight">
+<pre><code class="hljs cpp">ruby -v
+<span class="hljs-comment">//如安装成功会打印</span>
+ruby <span class="hljs-number">2.2</span><span class="hljs-number">.2</span>p95 (<span class="hljs-number">2015</span>-<span class="hljs-number">04</span>-<span class="hljs-number">13</span> revision <span class="hljs-number">50295</span>) [i386-mingw32]</code>
+</pre>
+</figure>
+
+<p>如上已经安装成功。但因为国内网络的问题导致<code>gem</code>源间歇性中断因此我们需要更换<code>gem</code>源。（使用淘宝的gem源<a href="https://ruby.taobao.org/）如下：" class="mark-color">https://ruby.taobao.org/）如下：</a></p>
+<div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div>
+<figure class="highlight">
+<pre>
+<code class="hljs groovy">
+<span class="hljs-comment">//1.删除原gem源</span>
+gem sources --remove <span class="hljs-string">https:</span><span class="hljs-comment">//rubygems.org/</span>
+<span class="hljs-comment">//2.添加国内淘宝源</span>
+gem sources -a <span class="hljs-string">https:</span><span class="hljs-comment">//ruby.taobao.org/</span>
+<span class="hljs-comment">//3.打印是否替换成功</span>
+gem sources -l
+<span class="hljs-comment">//4.更换成功后打印如下</span>
+*** CURRENT SOURCES ***
+<span class="hljs-string">https:</span><span class="hljs-comment">//ruby.taobao.org/</span>
+</code>
+</pre>
+</figure>
+
+<p><code>Ruby</code>自带一个叫做<code>RubyGems</code>的系统，用来安装基于<code>Ruby</code>的软件。我们可以使用这个系统来 轻松地安装<code>Sass</code>和<code>Compass</code>。要安装最新版本的<code>Sass</code>和<code>Compass</code>，你需要输入下面的命令：</p>
+<div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div>
+<figure class="highlight">
+<pre>
+<code class="hljs cmake">//安装如下(如mac安装遇到权限问题需加 sudo gem <span class="hljs-keyword">install</span> sass)
+gem <span class="hljs-keyword">install</span> sass
+gem <span class="hljs-keyword">install</span> compass
+</code>
+</pre>
+</figure>
+
+<p>在每一个安装过程中，你都会看到如下输出：</p>
+<div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div>
+<figure class="highlight">
+<pre>
+<code class="hljs cpp">Fetching: sass-<span class="hljs-number">3.</span>x.x.gem (<span class="hljs-number">100</span>%)
+Successfully installed sass-<span class="hljs-number">3.</span>x.x
+Parsing documentation <span class="hljs-keyword">for</span> sass-<span class="hljs-number">3.</span>x.x
+Installing ri documentation <span class="hljs-keyword">for</span> sass-<span class="hljs-number">3.</span>x.x
+Done installing documentation <span class="hljs-keyword">for</span> sass after <span class="hljs-number">6</span> secon
+<span class="hljs-number">1</span> gem installed
+</code>
+</pre>
+</figure>
+
+<p>安装完成之后，你应该通过运行下面的命令来确认应用已经正确地安装到了电脑中：</p>
+<div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div>
+<figure class="highlight">
+<pre>
+<code class="hljs cpp">sass -v
+Sass <span class="hljs-number">3.</span>x.x (Selective Steve)
+compass -v
+Compass <span class="hljs-number">1.</span>x.x (Polaris)
+Copyright (c) <span class="hljs-number">2008</span>-<span class="hljs-number">2015</span> Chris Eppstein
+Released under the MIT License.
+Compass is charityware.
+Please make a tax deductable donation <span class="hljs-keyword">for</span> a worthy cause: http:<span class="hljs-comment">//umdf.org/compass</span>
+</code>
+</pre>
+</figure>
+
+<p>如下sass常用更新、查看版本、sass命令帮助等命令：</p>
+<div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div>
+<figure class="highlight">
+<pre>
+<code class="hljs objectivec"><span class="hljs-comment">//更新sass</span>
+gem update sass
+
+<span class="hljs-comment">//查看sass版本</span>
+sass -v
+
+<span class="hljs-comment">//查看sass帮助</span>
+sass -h</code>
+</pre> 
+</figure>
+
+<h2 id="bianyi"></h2>
+<br>
+<br>
+
+<h2>编译sass</h2>
+
+<div class="view-body think-editor-content"><p><code>sass</code>编译有很多种方式，如命令行编译模式、sublime插件<code>SASS-Build</code>、编译软件<code>koala</code>、前端自动化软件<code>codekit</code>、Grunt打造前端自动化工作流<code>grunt-sass</code>、Gulp打造前端自动化工作流<code>gulp-ruby-sass</code>等。</p>
+
+<h2 id="2-e46e-">命令行编译;</h2>
+<div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div>
+<figure class="highlight">
+<pre>
+<code class="hljs groovy"><span class="hljs-comment">//单文件转换命令</span>
+sass input.scss output.css
+
+<span class="hljs-comment">//单文件监听命令</span>
+sass --watch input.<span class="hljs-string">scss:</span>output.css
+
+<span class="hljs-comment">//如果你有很多的sass文件的目录，你也可以告诉sass监听整个目录：</span>
+sass --watch app<span class="hljs-regexp">/sass:public/</span>stylesheets
+</code>
+</pre>
+</figure>
+
+
+
+<h3>命令行编译配置选项;</h3>
+<p>命令行编译<code>sass</code>有配置选项，如编译过后css排版、生成调试map、开启debug信息等，可通过使用命令<code>sass -v</code>查看详细。我们一般常用两种<code>--style``--sourcemap</code>。</p>
+
+<div class="bd-clipboard"><button class="btn-clipboard" title="" data-original-title="Copy to clipboard">Copy</button></div>
+<figure class="highlight">
+<pre>
+<code class="hljs groovy"><span class="hljs-comment">//编译格式</span>
+sass --watch input.<span class="hljs-string">scss:</span>output.css --style compact
+
+<span class="hljs-comment">//编译添加调试map</span>
+sass --watch input.<span class="hljs-string">scss:</span>output.css --sourcemap
+
+<span class="hljs-comment">//选择编译格式并添加调试map</span>
+sass --watch input.<span class="hljs-string">scss:</span>output.css --style expanded --sourcemap
+
+<span class="hljs-comment">//开启debug信息</span>
+sass --watch input.<span class="hljs-string">scss:</span>output.css --debug-info
+</code>
+</pre>
+</figure>
+
+
+
+<ul><li><code>--style</code>表示解析后的<code>css</code>是什么排版格式;<br>
+sass内置有四种编译格式:<code>nested``expanded``compact``compressed</code>。</li><li><code>--sourcemap</code>表示开启<code>sourcemap</code>调试。开启<code>sourcemap</code>调试后，会生成一个后缀名为<code>.css.map</code>文件。</li></ul>
+
+<h3>四种编译排版演示;</h3>
+<figure class="highlight">
+<pre>
+<code class="hljs less"><span class="hljs-comment">//未编译样式</span>
+<span class="hljs-class">.box</span> {
+<span class="hljs-attribute">width</span>: <span class="hljs-number">300px</span>;
+<span class="hljs-attribute">height</span>: <span class="hljs-number">400px</span>;
+<span class="hljs-keyword">&amp;</span><span class="hljs-tag">-title</span> {
+<span class="hljs-attribute">height</span>: <span class="hljs-number">30px</span>;
+<span class="hljs-attribute">line-height</span>: <span class="hljs-number">30px</span>;
+}
+}</code>
+</pre>
+</figure>
+
+
+<h3>nested 编译排版格式</h3>
+<figure class="highlight">
+<pre>
+<code class="hljs css"><span class="hljs-comment">/*命令行内容*/</span>
+<span class="hljs-tag">sass</span> <span class="hljs-rule"><span class="hljs-attribute">style.scss</span>:<span class="hljs-value">style.css --style nested
+
+<span class="hljs-comment">/*编译过后样式*/</span>
+.box {
+width: <span class="hljs-number">300px</span></span></span>;
+<span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">400px</span></span></span>; }
+<span class="hljs-class">.box-title</span> <span class="hljs-rules">{
+<span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">30px</span></span></span>;
+<span class="hljs-rule"><span class="hljs-attribute">line-height</span>:<span class="hljs-value"> <span class="hljs-number">30px</span></span></span>; }</span>
+</code>
+</pre>
+</figure>
+
+
+<h3>expanded 编译排版格式</h3>
+<figure class="highlight">
+<pre>
+<code class="hljs css"><span class="hljs-comment">/*命令行内容*/</span>
+<span class="hljs-tag">sass</span> <span class="hljs-rule"><span class="hljs-attribute">style.scss</span>:<span class="hljs-value">style.css --style expanded
+
+<span class="hljs-comment">/*编译过后样式*/</span>
+.box {
+width: <span class="hljs-number">300px</span></span></span>;
+<span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">400px</span></span></span>;
+}
+<span class="hljs-class">.box-title</span> <span class="hljs-rules">{
+<span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">30px</span></span></span>;
+<span class="hljs-rule"><span class="hljs-attribute">line-height</span>:<span class="hljs-value"> <span class="hljs-number">30px</span></span></span>;
+}</span>
+</code>
+</pre>
+</figure>
+
+
+<h3>compact 编译排版格式</h3>
+<figure class="highlight">
+
+<pre><code class="hljs css"><span class="hljs-comment">/*命令行内容*/</span>
+<span class="hljs-tag">sass</span> <span class="hljs-rule"><span class="hljs-attribute">style.scss</span>:<span class="hljs-value">style.css --style compact
+
+<span class="hljs-comment">/*编译过后样式*/</span>
+.box { width: <span class="hljs-number">300px</span></span></span>; <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">400px</span></span></span>; }
+<span class="hljs-class">.box-title</span> <span class="hljs-rules">{ <span class="hljs-rule"><span class="hljs-attribute">height</span>:<span class="hljs-value"> <span class="hljs-number">30px</span></span></span>; <span class="hljs-rule"><span class="hljs-attribute">line-height</span>:<span class="hljs-value"> <span class="hljs-number">30px</span></span></span>; }</span></code></pre>
+</figure>
+
+<h3 id="compressed-">compressed 编译排版格式</h3>
+<figure class="highlight">
+
+<pre><code class="hljs less"><span class="hljs-comment">/*命令行内容*/</span>
+<span class="hljs-tag">sass</span> <span class="hljs-tag">style</span><span class="hljs-class">.scss</span><span class="hljs-pseudo">:style</span><span class="hljs-class">.css</span> <span class="hljs-tag">--style</span> <span class="hljs-tag">compressed</span>
+
+<span class="hljs-comment">/*编译过后样式*/</span>
+<span class="hljs-class">.box</span>{<span class="hljs-attribute">width</span>:<span class="hljs-number">300px</span>;<span class="hljs-tag">height</span><span class="hljs-pseudo">:400px</span>}<span class="hljs-class">.box-title</span>{<span class="hljs-attribute">height</span>:<span class="hljs-number">30px</span>;<span class="hljs-attribute">line-height</span>:<span class="hljs-number">30px</span>}</code></pre>
+</figure>
+
+<h2>LESS/Sass 编译工具Dreamweaver2018介绍</h2>
+<p> 易上手的Sass编译工具Dreamweaver2018支持多个环境的安装文件</p>
+<p> 支持Less、Sass、Compass、CoffeeScript，帮助web开发者更高效地使用它们进行开发。跨平台运行，完美兼容windows、linux、mac。</p>
+</div>
+
+</div>
+</main>
+<!-- sass-home-main end! -->
+
+
+<div class="container-fluid sass-home-foot">
+<div class="row">
+<div class="col-lg-6 col-12 sass-foot-l">
+Sass &copy; 2006–2018 <a href="//z01.com/blog" target="_blank">Zoomla!逐浪CMS团队维护</a> Sass基于MIT开源协议.
+</div>
+<div class="col-lg-5 col-12 sass-foot-r offset-md-1">
+<ul class="list-unstyled">
+<li><a href="https://github.com/sass">Sass on GitHub</a></li> 
+<li><a href="https://www.sass.hk/" target="_blank">Sass.hk</a></li> 
+<li><a href="http://sass-lang.com/" target="_blank">Sass官网</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<script src="/js/jquery-3.2.1.slim.min.js"></script> 
+<script src="../v4/assets/js/docs.min.js"></script> 
+<script src="../v4/dist/js/popper.min.js"></script> 
+<script src="../v4/dist/js/bootstrap.min.js"></script> 
+<script>
+$(window).scroll(function(){
+   if($(window).scrollTop()>0) {
+   $(".sass-home-ad").css("display","none"); 
+   $("#home_nav").css({"position":"fixed","z-index":"999"});
+}else{
+    $(".sass-home-ad").css("display","block");
+    $("#home_nav").css("position","relative");
+}  
+});
+</script>
+</body>
+</html>

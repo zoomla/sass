@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* Powere by ZoomlaCMS z01.com*/
+body { background: #fff; }
+
+.mark-color { color: #c69; font-weight: 600; }
+
+.mark-color:hover { color: #212529; }
+
+.sass-home-top { padding-top: 0.5rem; padding-bottom: 0.5rem; background: #036; line-height: 1.6rem; color: #ddd; text-align: center; }
+
+/*sass home_page*/
+.sass-home-nav { background: url(images/home_bg.svg) repeat-x; }
+.sass-home-nav svg { height: 6rem; max-width: 8.6rem; }
+
+.navbar-brand { margin-left: 1rem; }
+.navbar-brand h1 { float: right; color: #f74d97; font-size: 2rem; padding-top: 3rem; }
+
+/*下载按钮*/
+.btn-bd-yellow { font-weight: 500; color: #868e96; border-color: #868e96; }
+
+.sass-home-nav .navbar-light .navbar-nav .nav-link { padding-left: 1rem; padding-right: 1rem; font-weight: 600; color: #f74d97; }
+.sass-home-nav .navbar-light .navbar-nav .nav-link:hover { color: #162A46; }
+.sass-home-nav .navbar-light .navbar-nav .nav-link.active { color: #f00; }
+
+.sass-home-ad { text-align: center; padding-bottom: 2rem; }
+.sass-home-ad h2 { color: #808c99; }
+
+.sass-home-ad2 { margin-bottom: 2rem; text-align: center; }
+.sass-home-ad2 img { max-width: 96%; }
+.sass-home-ad2 p { max-height: 4rem; font-size: 1.6rem; color: #699; width: 100%; }
+
+.sass-home-version { background: #c6538c; }
+.sass-home-version ul { display: flex; padding-left: 0; margin-bottom: 0; justify-content: center; list-style: none; }
+.sass-home-version li, .sass-home-version a { display: inline-block; margin-left: 0.6rem; margin-right: 0.6rem; height: 2.6rem; line-height: 2.6rem; color: #e6e6e6; font-weight: 600; text-align: center; }
+.sass-home-version li:first-child { font-weight: normal; }
+.sass-home-version li a:hover { color: #fff; }
+
+.sass-home-main { margin-top: 1.6rem; margin-bottom: 7rem; }
+.sass-home-main h2 { margin-top: 2.2rem; margin-bottom: 0.75rem; font-size: 1.1rem; color: #808c99; font-weight: 600; }
+.sass-home-main p { margin-bottom: 1.6rem; width: 100%; }
+.sass-home-main a { text-decoration: none; color: #c69; }
+.sass-home-main a:hover { color: #212529; }
+
+.sass-home-foot { padding-top: 3rem; padding-bottom: 3rem; background: url(images/home_bg.svg) repeat-x; font-size: 0.9rem; }
+.sass-home-foot ul { display: flex; }
+.sass-home-foot li a { color: #484c55; margin-left: 0.6rem; margin-right: 0.6rem; text-decoration: none; }
+.sass-home-foot a { color: rgba(72, 76, 85, 0.9); }
+
+/*install*/
+#sass-install .mark-color { color: #c69; }
+#sass-install .mark-color:hover { color: #212529; }
+#sass-install a { text-decoration: none; }
+#sass-install img { max-width: 100%; }
+
+/*css2sass*/
+.sass-transf { margin-top: 2rem; }
+.sass-transf #input { min-height: 16rem; }
+.sass-transf #output { min-height: 25rem; }
+.sass-transf #variables { min-height: 5.2rem; }
+
+.title-inner, .sidebar .h2 { display: block; margin-left: -1rem; margin-top: 1rem; margin-bottom: 1.4rem; font-size: 1.12rem; font-weight: 600; }
+
+.sidebar { margin-top: 1rem; }
+.sidebar li a { color: #c69; text-decoration: none; font-size: 1rem; }
+.sidebar li a:hover { color: #162A46; }
+.sidebar .h3 { font-size: 1.12rem; font-weight: normal; }
+.sidebar .h4 { margin-left: 1rem; font-size: 1.12rem; font-weight: normal; }
+
+.bd-sidebar { overflow-y: auto; }
+
+@media screen and (max-width: 768px) { /*768px*/
+  .container-fluid { padding-left: 1rem; padding-right: 1rem; }
+  .sass-home-nav svg { margin-top: 1rem; height: 3.4rem; max-width: 5.4rem; }
+  .sass-home-ad h1 { font-size: 1.6rem; }
+  .sass-home-ad2 img { width: 100%; }
+  .sass-home-ad2 p { margin-top: 1rem; font-size: 1rem; color: #699; }
+  .sass-home-version ul { flex-direction: column; }
+  .sass-home-main { margin-bottom: 1.6rem; }
+  .sass-home-foot ul { flex-direction: column; margin-top: 1rem; }
+  .sass-home-foot li a { margin-left: 0; } }
+/*key:UG93ZXJlZCBieSBab29tbGEh6YCQ5rWqQ01TIHd3d3cuejAxLmNvbQ== */
